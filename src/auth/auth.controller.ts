@@ -4,6 +4,8 @@ import { Response } from 'src/interfaces'
 import { UserLoginDto, UserRegisterDto } from 'src/users/dto'
 import { UserLogin, UserRegister } from 'src/users/interfaces'
 import { UserService } from 'src/users/user.service'
+
+//authentication
 @Controller('auth')
 @ApiTags('auth')
 export class AuthController {
