@@ -4,7 +4,7 @@ import {IsNotEmpty, IsString, IsArray, IsOptional} from 'class-validator'
 export class CreateDeviceDto {
     @ApiProperty({
         type: String,
-        description: 'This is a required property',
+        description: 'Required property',
     })
     @IsNotEmpty()
     @IsString()
@@ -12,7 +12,7 @@ export class CreateDeviceDto {
 
     @ApiProperty({
         type: String,
-        description: 'This is a required property',
+        description: 'Required property',
     })
     @IsNotEmpty()
     @IsString()
@@ -20,7 +20,7 @@ export class CreateDeviceDto {
 
     @ApiProperty({
         type: String,
-        description: 'This is a required property',
+        description: 'Required property',
     })
     @IsNotEmpty()
     @IsString()
@@ -30,7 +30,7 @@ export class CreateDeviceDto {
 export class AddDeviceToRoomDto {
     @ApiProperty({
         type: String,
-        description: 'This is a required property',
+        description: 'Required property',
     })
     @IsNotEmpty()
     @IsString()
@@ -39,7 +39,7 @@ export class AddDeviceToRoomDto {
 export class DeviceByIdsDto {
     @ApiProperty({
         type: [String],
-        description: 'This is a required property',
+        description: 'Required property',
     })
     @IsNotEmpty()
     @IsArray()
